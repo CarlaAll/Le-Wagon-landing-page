@@ -31,7 +31,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: purple;
+  color: #7fb9cc;
 }
 
 ul {
@@ -40,12 +40,15 @@ ul {
 li {
   list-style: none;
 }
-
 img {
   display: block;
-  margin-left: 90px;
+  margin: 0 auto;
 }
 
+.container {
+  display: inline;
+  margin: auto;
+}
 #banner {
   text-align: center;
   background-image: url("https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
@@ -85,7 +88,8 @@ img {
   color: yellow;
 }
 #footer p {
-  font-style: monospace;
+  font-family: monospace;
+  font-size: 15px;
 }
 #footer li {
   color: lightgrey;
