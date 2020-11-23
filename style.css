@@ -4,17 +4,24 @@ body {
   font-size: 25px;
   font-family: Helvetica;
 }
+
 h1 {
   font-family: Courier;
   color: red;
   font-weight: lighter;
   font-size: 10px;
 }
+
 h2 {
   font-family: Courier;
   color: pink;
   font-weight: lighter;
-  font-size: 8px;
+  font-size: 18px;
+  text-align: center;
+}
+
+p {
+  text-align: center;
 }
 
 a {
@@ -24,6 +31,18 @@ a {
 a:hover {
   text-decoration: none;
   color: purple;
+}
+
+ul {
+  text-align: center;
+}
+li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  margin-left: 90px;
 }
 
 #banner {
@@ -48,8 +67,29 @@ a:hover {
   padding: 30px;
   background: rgb(30, 30, 30);
   color: lightgrey;
+  text-align: center;
 }
 .card {
   padding: 50px;
   font-weight: lighter;
+}
+
+#github {
+  font-style: italic;
+  color: lightgrey;
+  text-align: center;
+}
+
+#github:hover {
+  color: yellow;
+}
+#footer p {
+  font-style: monospace;
+}
+#footer li {
+  color: lightgrey;
+  font-size: 15px;
+}
+#footer li:hover {
+  color: white;
 }
