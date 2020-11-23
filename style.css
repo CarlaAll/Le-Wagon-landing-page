@@ -20,8 +20,9 @@ h2 {
   text-align: center;
 }
 
-p {
+.card {
   text-align: center;
+  color: #82431b;
 }
 
 a {
