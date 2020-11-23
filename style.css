@@ -46,8 +46,8 @@ img {
 }
 
 .container {
-  display: inline;
-  margin: auto;
+  display: block;
+  margin: 0 auto;
 }
 #banner {
   text-align: center;
